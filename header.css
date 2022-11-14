@@ -1,0 +1,58 @@
+.wrap{
+    width: 100%;
+}
+.wrap-logo{
+    width: 100%;
+    height: 62px;
+}
+
+.logo-Left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 107px;
+    height: 62px;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo-Left a{
+    display: flex;
+    padding: 23px 23px 21px ;
+    color: #17191d;
+}
+
+.menuButton:hover{
+    color: #07f;
+    transition: all .15s linear;
+}
+
+.menuIcon:hover{
+    background-color: #07f;
+    transition: all .15s linear;
+}
+
+.menuIcon{
+    width: 18px;
+    height: 16px;
+
+    margin:1px 11px 0 0;
+    display: block;
+    zoom: 1;
+    background: transparent url(/images/set_gnb.png);
+    background-color: black;
+}
+
+
+
+.wrap-nav{
+    height: 100px;
+
+    background-color: aquamarine;
+}
+.main-swiper{
+    height: 620px;
+
+    background-color: beige;
+}
