@@ -15,6 +15,7 @@
 
     display: flex;
     align-items: center;
+    z-index: 3;
 }
 
 .logo-Left a{
@@ -28,7 +29,7 @@
     transition: all .15s linear;
 }
 
-.menuIcon:hover{
+.menuButton:hover .menuIcon{ 
     background-color: #07f;
     transition: all .15s linear;
 }
@@ -39,12 +40,55 @@
 
     margin:1px 11px 0 0;
     display: block;
-    zoom: 1;
     background: transparent url(/images/set_gnb.png);
     background-color: black;
 }
 
+.logo-center{
+    width: 100%;
+    text-align: center;
+}
 
+.logo-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    width: 261px;
+    height: 62px;
+    background-color: red   ;
+}
+
+.card{
+    padding: 10px 15px 0px;     
+    line-height: 72px;  
+    background: transparent url(/images/set_gnb_icon.png);
+    background-color: #17191d;
+}
+
+.gnbCard:hover .card{
+    background-color: #07f;
+    transition: all .15s linear;
+
+}
+
+.gnbCard:hover .hiddenName{
+    display: block;
+    transition: all .15s linear;
+}
+
+.hiddenName{
+    display: none;
+    position: absolute;
+    top: 42px;
+    font-size: 11px; 
+    left: -11px;
+    color: white;
+    padding: 1px 5px;
+    border-radius: 15px;
+    font-weight: 700;
+    background-color: #17191d;
+}
 
 .wrap-nav{
     height: 100px;

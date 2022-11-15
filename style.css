@@ -11,5 +11,6 @@ ul,li{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 *{margin: 0px; padding: 0px;box-sizing: border-box;}
