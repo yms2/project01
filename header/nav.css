@@ -1,0 +1,11 @@
+#wrapper{
+    height: 4000px;
+    background-color: green;
+    border-bottom: 1px solid #b4b8c0;
+}
+
+#header{
+    height: 100px;
+    background-color: #fff;
+    border-bottom: 1px solid #b4b8c0;
+}
